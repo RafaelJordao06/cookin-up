@@ -1,40 +1,35 @@
-# cookin-up
+# Cookin'UP - Desperte o Chef em Você
 
-This template should help get you started developing with Vue 3 in Vite.
+Cookin'UP é uma aplicação web incrível desenvolvida em Vue 3 que permite aos entusiastas da culinária explorar e criar receitas deliciosas com os ingredientes que já têm em casa. Este projeto foi desenvolvido como parte da formação em Vue da Alura, proporcionando uma oportunidade prática para aprimorar suas habilidades de Vue.
 
-## Recommended IDE Setup
+## Como Instalar
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Para começar a explorar e utilizar o Cookin'UP em sua máquina local, siga estas etapas simples:
 
-## Type Support for `.vue` Imports in TS
+1. Clone este repositório para sua máquina local usando o seguinte comando:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+git clone https://github.com/RafaelJordao06/cookin-up.git
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+2. Navegue até o diretório do projeto:
+   
+cd cookin-up
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+3. Instale as dependências necessárias usando o npm:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
 
-### Compile and Hot-Reload for Development
+## Como Executar
 
-```sh
-npm run dev
-```
+Após a instalação das dependências, você pode executar o Cookin'UP localmente:
 
-### Type-Check, Compile and Minify for Production
+npm run serve
 
-```sh
-npm run build
-```
+Isso iniciará o servidor de desenvolvimento e você poderá acessar o Cookin'UP em seu navegador em `http://localhost:8080`.
+
+## Capturas de Tela
+![cookin up](https://github.com/RafaelJordao06/cookin-up/assets/79488603/66d53ff7-619c-42a1-bbe4-ce2a8fd9d1fa)
+
+
+![cookin up 2](https://github.com/RafaelJordao06/cookin-up/assets/79488603/67f0794d-266b-4b9f-addf-2773507ef1f3)
+
+![cookin up 3](https://github.com/RafaelJordao06/cookin-up/assets/79488603/09fdfe4b-5cd5-48ff-90fb-3bbca12466e2)
